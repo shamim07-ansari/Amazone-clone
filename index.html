@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="back-to-top">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select"> 
+                    <option hidden>All</option>
+                    <option>Sports</option>
+                    <option>Electronics</option>
+                    <option>Fashion</option>
+                    <option>Games</option>
+                    <option>Cosmetic</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-country border">
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <select class="country-select">
+                    <option hidden>EN</option>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Italian</option>
+                    <option>Spanish</option>
+                </select>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>Cart
+            </div>
+
+        </div>
+
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>All
+            </div>
+
+            <div class="panel-ops">
+                <p class="border"><a href="#" target="_blank">Today's Deal</a></p>
+                <p class="border"><a href="#" target="_blank">Customer Service</a></p>
+                <p class="border"><a href="#" target="_blank">Registry</a></p>
+                <p class="border"><a href="#" target="_blank">Gift Cards</a></p>
+                <p class="border"><a href="#" target="_blank">Sell</a></p>
+            </div>
+
+            <div class="panel-deals border">
+                <a href="#" target="_blank">Shop deals in Electronics</a>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-message">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery <a href="https://www.amazon.in/" target="_blank">Click here to go to amazon.in</a> </p>
+        </div>
+    </div>
+
+    <main>
+        <div class="shop-section">
+            <div class="box">
+                <div class="box-content">
+                    <h2>Clothes</h2>
+                    <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+                    <p><a href="#" target="_blank">Shop Now</a></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>Health & Personal Care</h2>
+                    <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+                    <p><a href="#" target="_blank">Shop Now</a></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>Furniture</h2>
+                    <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+                    <p><a href="#" target="_blank">Shop Now</a></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>Electronics</h2>
+                    <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+                    <p><a href="#" target="_blank">Shop Now</a></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>Beauty picks</h2>
+                    <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+                    <p><a href="#" target="_blank">Shop Now</a></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>Pet Care</h2>
+                    <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+                    <p><a href="#" target="_blank">Shop Now</a></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>New Arrival in Toys</h2>
+                    <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+                    <p><a href="#" target="_blank">Shop Now</a></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-content">
+                    <h2>Discover Fashion Trends</h2>
+                    <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+                    <p><a href="#" target="_blank">Shop Now</a></p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot-panel1">
+            <a href="#back-to-top">Back to top</a>
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#" target="_blank">Careers</a>
+                <a href="#" target="_blank">Blog</a>
+                <a href="#" target="_blank">About Amazon</a>
+                <a href="#" target="_blank">Investor Relations</a>
+                <a href="#" target="_blank">Amazon devices</a>
+                <a href="#" target="_blank">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#" target="_blank">Sell products on Amazon</a>
+                <a href="#" target="_blank">Sell products on Business</a>
+                <a href="#" target="_blank">Sell apps on Amazon</a>
+                <a href="#" target="_blank">Become an Affiliate</a>
+                <a href="#" target="_blank">Advertise Your Products</a>
+                <a href="#" target="_blank">Self-Publish with Us</a>
+                <a href="#" target="_blank">Host an Amazon Hub</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a href="#" target="_blank">Amazon Business Card</a>
+                <a href="#" target="_blank">Shop with Points</a>
+                <a href="#" target="_blank">Reload Your Balance</a>
+                <a href="#" target="_blank">Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#" target="_blank">Amazon and Covid-19</a>
+                <a href="#" target="_blank">Your Account</a>
+                <a href="#" target="_blank">Your Orders</a>
+                <a href="#" target="_blank">Shiping Rates & Policies</a>
+                <a href="#" target="_blank">Return & Replacements</a>
+                <a href="#" target="_blank">Manage Your Content And Devices</a>
+                <a href="#" target="_blank">Amazon Assitant</a>
+                <a href="#" target="_blank">Help</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+
+        <div class="foot-panel4">
+            <a href="#" target="_blank">Australia</a>
+            <a href="#" target="_blank">Brazil</a>
+            <a href="#" target="_blank">Canada</a>
+            <a href="#" target="_blank">China</a>
+            <a href="#" target="_blank">France</a>
+            <a href="#" target="_blank">Germany</a>
+            <a href="#" target="_blank">Italy</a>
+            <a href="#" target="_blank">Japan</a>
+            <a href="#" target="_blank">Mexico</a>
+            <a href="#" target="_blank">Netherlands</a>
+            <a href="#" target="_blank">Poland</a>
+            <a href="#" target="_blank">Singapore</a>
+            <a href="#" target="_blank">Spain</a>
+            <a href="#" target="_blank">Turkey</a>
+            <a href="#" target="_blank">United Arab Emirates</a>
+            <br><br>
+            <a href="#" target="_blank">United Kingdom</a>
+            <a href="#" target="_blank">United States</a>
+        </div>
+
+        <div class="foot-panel5">
+            
+            <div class="foot-first-ul">
+                <ul>
+                    <p>AbeBooks</p>
+                    <a href="#" target="_blank">Books, art</a>
+                    <a href="#" target="_blank">& collectibles</a>
+                </ul>
+                <ul>
+                    <p>Amazone Web Services</p>
+                    <a href="#" target="_blank">Scalable Cloud</a>
+                    <a href="#" target="_blank">Computing Services</a>
+                </ul>
+                <ul>
+                    <p>Audible</p>
+                    <a href="#" target="_blank">Download</a>
+                    <a href="#" target="_blank">Audio Books</a>
+                </ul>
+                <ul>
+                    <p>DPReview</p>
+                    <a href="#" target="_blank">Digital</a>
+                    <a href="#" target="_blank">Photography</a>
+                </ul>
+                <ul>
+                    <p>IMBD</p>
+                    <a href="#" target="_blank">Movies, TV</a>
+                    <a href="#" target="_blank">& Celebrities</a>
+                </ul>
+                
+                <ul>
+                    <p>Shopbop</p>
+                    <a href="#" target="_blank">Designer</a>
+                    <a href="#" target="_blank">Fashion Brands</a>
+                </ul>
+                <ul>
+                    <p>Amazone Business</p>
+                    <a href="#" target="_blank">Everything For</a>
+                    <a href="#" target="_blank">Your Business</a>
+                </ul>
+                <ul>
+                    <p>AmazonGloble</p>
+                    <a href="#" target="_blank">Ship Orders</a>
+                    <a href="#" target="_blank">Internationally</a>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="foot-panel6">
+            <div class="pages">
+                <a href="#" target="_blank">Conditions of Use</a>
+                <a href="#" target="_blank">Privacy Notice</a>
+                <a href="#" target="_blank">Your Ads Privacy Choices</a>
+            </div>
+
+            <div class="copyright">© 1996-2023, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
+</body>
+</html>
